@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CredixAPI.Domain/1.0.0": {
+        "runtime": {
+          "CredixAPI.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CredixAPI.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

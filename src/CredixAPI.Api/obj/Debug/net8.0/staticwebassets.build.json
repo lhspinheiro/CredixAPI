@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "uYYzRHnEhLyBMEpVFfntkeBDqSuqFwb1m4BpzQIh/so=",
+  "Source": "CredixAPI.Api",
+  "BasePath": "_content/CredixAPI.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

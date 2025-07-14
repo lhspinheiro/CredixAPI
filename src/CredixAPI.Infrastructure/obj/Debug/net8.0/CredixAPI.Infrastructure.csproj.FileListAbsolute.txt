@@ -1,0 +1,15 @@
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Infrastructure/bin/Debug/net8.0/CredixAPI.Infrastructure.deps.json
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Infrastructure/bin/Debug/net8.0/CredixAPI.Infrastructure.dll
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Infrastructure/bin/Debug/net8.0/CredixAPI.Infrastructure.pdb
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Infrastructure/bin/Debug/net8.0/CredixAPI.Domain.dll
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Infrastructure/bin/Debug/net8.0/CredixAPI.Domain.pdb
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Infrastructure/obj/Debug/net8.0/CredixAPI.Infrastructure.csproj.AssemblyReference.cache
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Infrastructure/obj/Debug/net8.0/CredixAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Infrastructure/obj/Debug/net8.0/CredixAPI.Infrastructure.AssemblyInfoInputs.cache
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Infrastructure/obj/Debug/net8.0/CredixAPI.Infrastructure.AssemblyInfo.cs
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Infrastructure/obj/Debug/net8.0/CredixAPI.Infrastructure.csproj.CoreCompileInputs.cache
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Infrastructure/obj/Debug/net8.0/CredixAPI.Infrastructure.csproj.CopyComplete
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Infrastructure/obj/Debug/net8.0/CredixAPI.Infrastructure.dll
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Infrastructure/obj/Debug/net8.0/refint/CredixAPI.Infrastructure.dll
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Infrastructure/obj/Debug/net8.0/CredixAPI.Infrastructure.pdb
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Infrastructure/obj/Debug/net8.0/ref/CredixAPI.Infrastructure.dll
