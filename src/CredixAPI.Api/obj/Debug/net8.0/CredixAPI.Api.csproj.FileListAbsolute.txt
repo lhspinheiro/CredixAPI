@@ -292,3 +292,4 @@
 /media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Api/bin/Debug/net8.0/CredixAPI.Communication.dll
 /media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Api/bin/Debug/net8.0/CredixAPI.Application.pdb
 /media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Api/bin/Debug/net8.0/CredixAPI.Communication.pdb
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Api/obj/Debug/net8.0/CredixAPI.Api.sourcelink.json

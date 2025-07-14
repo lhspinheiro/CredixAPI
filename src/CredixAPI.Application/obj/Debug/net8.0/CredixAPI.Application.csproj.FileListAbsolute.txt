@@ -17,3 +17,4 @@
 /media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Application/bin/Debug/net8.0/CredixAPI.Infrastructure.pdb
 /media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Application/obj/Debug/net8.0/CredixAPI.Application.csproj.AssemblyReference.cache
 /media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Application/obj/Debug/net8.0/CredixAPI.Application.csproj.CopyComplete
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Application/obj/Debug/net8.0/CredixAPI.Application.sourcelink.json

@@ -25,26 +25,59 @@ public class RegisterUseCase : IRegisterUseCase
         await _dbContext.Loans.AddAsync(entity);
         await _dbContext.SaveChangesAsync();
 
-        return new ResponseRegisterJson
+        
+        if (request.Income <= 3000)
         {
-            Costumer = entity.Name,
-            loans = new List<ResponseLoans>
+            return new ResponseRegisterJson
             {
-                new ResponseLoans
+                Costumer = entity.Name,
+                loans = new List<ResponseLoans>
                 {
-                    type = "PERSONAL",
-                    interest_rate = 4
-                },
-                new ResponseLoans
-                {
-                    type = "GUARANTEED",
-                    interest_rate = 3
-                }, new ResponseLoans
-                {
-                    type = "CONSIGNMENT",
-                    interest_rate = 2
+                    new ResponseLoans
+                    {
+                        type = "PERSONAL",
+                        interest_rate = 4
+                    }, new ResponseLoans
+                    {
+                        type = "GUARANTEED",
+                        interest_rate = 3
+                    }
+                    
                 }
-            }
-        };
+            };
+        }
+        else if (request.Income > 3000 && request.Income <= 5000 && request.Age < 30 && request.Location == "sp")
+        {
+            return new ResponseRegisterJson
+            {
+                Costumer = entity.Name,
+                loans = new List<ResponseLoans>
+                {
+                    new ResponseLoans
+                    {
+                        type = "PERSONAL",
+                        interest_rate = 4
+                    }, new ResponseLoans
+                    {
+                        type = "GUARANTEED",
+                        interest_rate = 3
+                    }
+                }
+            };
+        } else 
+        {
+            return new ResponseRegisterJson
+            {
+                Costumer = entity.Name,
+                loans = new List<ResponseLoans>
+                {
+                    new ResponseLoans
+                    {
+                        type = "CONSIGNMENT",
+                        interest_rate = 2
+                    }
+                }
+            };
+        } 
     }
 }
