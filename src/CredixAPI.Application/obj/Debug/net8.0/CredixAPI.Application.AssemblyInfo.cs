@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CredixAPI.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e8c49da2ef804d914ee9d299ed2467174188936")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+337ade7a33bb9b0e1e360238f377459053f0e1be")]
 [assembly: System.Reflection.AssemblyProductAttribute("CredixAPI.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CredixAPI.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

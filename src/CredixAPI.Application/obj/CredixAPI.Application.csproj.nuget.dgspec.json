@@ -52,6 +52,10 @@
               "target": "Package",
               "version": "[14.0.0, )"
             },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.5.1, )"
+            },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[9.0.7, )"
@@ -98,7 +102,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Domain/CredixAPI.Domain.csproj": {
+                "projectPath": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Domain/CredixAPI.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -205,6 +213,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Communication/CredixAPI.Communication.csproj": {
+                "projectPath": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Communication/CredixAPI.Communication.csproj"
+              },
               "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Domain/CredixAPI.Domain.csproj": {
                 "projectPath": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Domain/CredixAPI.Domain.csproj"
               }
@@ -221,6 +232,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.5.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.7, )"

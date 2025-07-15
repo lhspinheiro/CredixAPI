@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CredixAPI.Exception")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+337ade7a33bb9b0e1e360238f377459053f0e1be")]
 [assembly: System.Reflection.AssemblyProductAttribute("CredixAPI.Exception")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CredixAPI.Exception")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

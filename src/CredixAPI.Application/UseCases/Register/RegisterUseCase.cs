@@ -1,8 +1,10 @@
 using AutoMapper;
+using CredixAPI.Communication.Event;
 using CredixAPI.Communication.Request;
 using CredixAPI.Communication.Response;
 using CredixAPI.Domain.Entities;
 using CredixAPI.Infrastructure.Data;
+using MassTransit;
 
 namespace CredixAPI.Application.UseCases.Register;
 
@@ -10,11 +12,13 @@ public class RegisterUseCase : IRegisterUseCase
 {
     private readonly AppDbContext  _dbContext;
     private readonly IMapper _mapper;
+    private readonly IBus _bus;
 
-    public RegisterUseCase(AppDbContext  dbContext, IMapper  mapper)
+    public RegisterUseCase(AppDbContext  dbContext, IMapper  mapper,  IBus bus)
     {
         _dbContext = dbContext;
         _mapper = mapper;
+        _bus = bus;
     }
     
     
@@ -24,7 +28,10 @@ public class RegisterUseCase : IRegisterUseCase
         
         await _dbContext.Loans.AddAsync(entity);
         await _dbContext.SaveChangesAsync();
-
+        
+        var eventRequest = new LoansEvent(entity);
+        
+        await _bus.Publish(eventRequest);
         
         if (request.Income <= 3000)
         {
