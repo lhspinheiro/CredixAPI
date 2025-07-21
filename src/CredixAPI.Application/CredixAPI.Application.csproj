@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="14.0.0" />
+      <PackageReference Include="FluentValidation" Version="12.0.0" />
+      <PackageReference Include="MassTransit.RabbitMQ" Version="8.5.1" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.7" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CredixAPI.Communication\CredixAPI.Communication.csproj" />
+      <ProjectReference Include="..\CredixAPI.Domain\CredixAPI.Domain.csproj" />
+      <ProjectReference Include="..\CredixAPI.Exception\CredixAPI.Exception.csproj" />
+      <ProjectReference Include="..\CredixAPI.Infrastructure\CredixAPI.Infrastructure.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="UseCases\" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Exception/bin/Debug/net8.0/CredixAPI.Exception.deps.json
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Exception/bin/Debug/net8.0/CredixAPI.Exception.dll
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Exception/bin/Debug/net8.0/CredixAPI.Exception.pdb
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Exception/obj/Debug/net8.0/CredixAPI.Exception.GeneratedMSBuildEditorConfig.editorconfig
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Exception/obj/Debug/net8.0/CredixAPI.Exception.AssemblyInfoInputs.cache
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Exception/obj/Debug/net8.0/CredixAPI.Exception.AssemblyInfo.cs
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Exception/obj/Debug/net8.0/CredixAPI.Exception.csproj.CoreCompileInputs.cache
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Exception/obj/Debug/net8.0/CredixAPI.Exception.sourcelink.json
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Exception/obj/Debug/net8.0/CredixAPI.Exception.dll
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Exception/obj/Debug/net8.0/refint/CredixAPI.Exception.dll
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Exception/obj/Debug/net8.0/CredixAPI.Exception.pdb
+/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Exception/obj/Debug/net8.0/ref/CredixAPI.Exception.dll

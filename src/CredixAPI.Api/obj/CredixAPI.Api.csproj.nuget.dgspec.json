@@ -1,0 +1,411 @@
+{
+  "format": 1,
+  "restore": {
+    "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Api/CredixAPI.Api.csproj": {}
+  },
+  "projects": {
+    "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Api/CredixAPI.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Api/CredixAPI.Api.csproj",
+        "projectName": "CredixAPI.Api",
+        "projectPath": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Api/CredixAPI.Api.csproj",
+        "packagesPath": "/home/lhspinheiro/.nuget/packages/",
+        "outputPath": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lhspinheiro/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Application/CredixAPI.Application.csproj": {
+                "projectPath": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Application/CredixAPI.Application.csproj"
+              },
+              "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Communication/CredixAPI.Communication.csproj": {
+                "projectPath": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Communication/CredixAPI.Communication.csproj"
+              },
+              "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Infrastructure/CredixAPI.Infrastructure.csproj": {
+                "projectPath": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Infrastructure/CredixAPI.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Application/CredixAPI.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Application/CredixAPI.Application.csproj",
+        "projectName": "CredixAPI.Application",
+        "projectPath": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Application/CredixAPI.Application.csproj",
+        "packagesPath": "/home/lhspinheiro/.nuget/packages/",
+        "outputPath": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lhspinheiro/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Communication/CredixAPI.Communication.csproj": {
+                "projectPath": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Communication/CredixAPI.Communication.csproj"
+              },
+              "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Domain/CredixAPI.Domain.csproj": {
+                "projectPath": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Domain/CredixAPI.Domain.csproj"
+              },
+              "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Exception/CredixAPI.Exception.csproj": {
+                "projectPath": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Exception/CredixAPI.Exception.csproj"
+              },
+              "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Infrastructure/CredixAPI.Infrastructure.csproj": {
+                "projectPath": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Infrastructure/CredixAPI.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.5.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Communication/CredixAPI.Communication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Communication/CredixAPI.Communication.csproj",
+        "projectName": "CredixAPI.Communication",
+        "projectPath": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Communication/CredixAPI.Communication.csproj",
+        "packagesPath": "/home/lhspinheiro/.nuget/packages/",
+        "outputPath": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Communication/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lhspinheiro/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Domain/CredixAPI.Domain.csproj": {
+                "projectPath": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Domain/CredixAPI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Domain/CredixAPI.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Domain/CredixAPI.Domain.csproj",
+        "projectName": "CredixAPI.Domain",
+        "projectPath": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Domain/CredixAPI.Domain.csproj",
+        "packagesPath": "/home/lhspinheiro/.nuget/packages/",
+        "outputPath": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lhspinheiro/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Exception/CredixAPI.Exception.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Exception/CredixAPI.Exception.csproj",
+        "projectName": "CredixAPI.Exception",
+        "projectPath": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Exception/CredixAPI.Exception.csproj",
+        "packagesPath": "/home/lhspinheiro/.nuget/packages/",
+        "outputPath": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Exception/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lhspinheiro/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Infrastructure/CredixAPI.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Infrastructure/CredixAPI.Infrastructure.csproj",
+        "projectName": "CredixAPI.Infrastructure",
+        "projectPath": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Infrastructure/CredixAPI.Infrastructure.csproj",
+        "packagesPath": "/home/lhspinheiro/.nuget/packages/",
+        "outputPath": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lhspinheiro/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Communication/CredixAPI.Communication.csproj": {
+                "projectPath": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Communication/CredixAPI.Communication.csproj"
+              },
+              "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Domain/CredixAPI.Domain.csproj": {
+                "projectPath": "/media/lhspinheiro/HD/Projetos/C# projects/CredixAPI/src/CredixAPI.Domain/CredixAPI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.5.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projetos\\C# projects\\CredixAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF9951E7-605D-428E-8325-D7072C099232}|src\\CredixAPI.Application\\CredixAPI.Application.csproj|d:\\projetos\\c# projects\\credixapi\\src\\credixapi.application\\usecases\\register\\iregisterusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF9951E7-605D-428E-8325-D7072C099232}|src\\CredixAPI.Application\\CredixAPI.Application.csproj|solutionrelative:src\\credixapi.application\\usecases\\register\\iregisterusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1836017921:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IRegisterUseCase.cs",
+              "DocumentMoniker": "D:\\Projetos\\C# projects\\CredixAPI\\src\\CredixAPI.Application\\UseCases\\Register\\IRegisterUseCase.cs",
+              "RelativeDocumentMoniker": "src\\CredixAPI.Application\\UseCases\\Register\\IRegisterUseCase.cs",
+              "ToolTip": "D:\\Projetos\\C# projects\\CredixAPI\\src\\CredixAPI.Application\\UseCases\\Register\\IRegisterUseCase.cs",
+              "RelativeToolTip": "src\\CredixAPI.Application\\UseCases\\Register\\IRegisterUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T00:25:38.094Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
